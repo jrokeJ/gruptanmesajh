@@ -1,0 +1,26 @@
+{
+    "name": "streamtape bot",
+    "description": "...",
+    "repository": "https://github.com/fireganqQ/streamtapeBot",
+    "logo": "",
+    "keywords": ["telegram", "game", "pyrogram","telegram bot"],
+    "env": {
+      "BOTTOKEN": {
+        "description": "@botfather den oluşturduğunuz botun tokeni!"
+      },
+      "GETID": {
+        "description": "Mesajların Alınacağı Kanal Veya Grup!(idler arası Boşluk bırak)"
+      },
+      "SENDID": {
+        "description": "Mesajların Gönderileceği Kanallar!(idler arası Boşluk bırak)"
+      },
+      "TOKEN": {
+          "description": "Hesabın Stringi!"
+      }
+     },
+     "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
